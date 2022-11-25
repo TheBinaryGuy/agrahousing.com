@@ -4,7 +4,7 @@
 
 @layer base {
     *::selection {
-        @apply bg-indigo-600 text-white;
+        @apply bg-blue-600 text-white;
     }
 
     html {
@@ -17,6 +17,10 @@
 
         @apply bg-slate-50 text-slate-900;
         @apply dark:bg-slate-900 dark:text-slate-50;
+    }
+
+    #__next {
+        @apply min-h-full flex flex-col grow;
     }
 
     [type='text'],

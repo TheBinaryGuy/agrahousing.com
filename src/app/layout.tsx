@@ -1,5 +1,3 @@
-import { Footer } from '@/app/footer';
-import { Navbar } from '@/app/navbar';
 import '@/styles/tw.css';
 import { Inter } from '@next/font/google';
 import { FC, PropsWithChildren } from 'react';
@@ -12,9 +10,11 @@ const RootLayout: FC<PropsWithChildren> = ({ children }) => (
             className={`${
                 process.env.NODE_ENV === 'development' ? 'debug-screens' : ''
             }`}>
-            <Navbar />
-            <div className='container mx-auto my-8 flex-1 px-4'>{children}</div>
-            <Footer />
+            <div
+                className='flex flex-1 grow flex-col'
+                data-nextjs-scroll-focus-boundary=''>
+                {children}
+            </div>
         </body>
     </html>
 );
