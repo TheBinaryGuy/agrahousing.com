@@ -19,7 +19,7 @@ const Index = () => (
             <a className='flex items-center gap-2' href='tel:+917070808678'>
                 <Phone size={16} />
                 <span className='text-blue-600 underline'>
-                    +91-70-70-808-678
+                    +91-70-60-808-678
                 </span>
             </a>
         </div>
