@@ -1,7 +1,7 @@
 {
     "$schema": "https://json.schemastore.org/web-manifest-combined.json",
-    "name": "Next.js Tailwind Template",
-    "short_name": "Template",
+    "name": "Agra Housing",
+    "short_name": "Agra Housing",
     "start_url": ".",
     "icons": [
         {
@@ -41,7 +41,7 @@
             "density": "4.0"
         }
     ],
-    "theme_color": "#4f46e5",
+    "theme_color": "#2563eb",
     "background_color": "#ffffff",
     "display": "standalone"
 }

@@ -7,7 +7,7 @@ export interface SEOProps {
 }
 
 export const SEO: React.FC<SEOProps> = ({
-    rootUrl = process.env.NEXT_PUBLIC_DOMAIN ?? 'example.com',
+    rootUrl = process.env.NEXT_PUBLIC_DOMAIN ?? 'agrahousing.com',
     title,
     desc,
     img,
@@ -25,27 +25,22 @@ export const SEO: React.FC<SEOProps> = ({
 
         <meta name='robots' content='index, follow' />
 
-        <meta
-            name='keywords'
-            content='Next.js, Tailwind, Template, <add-more-keywords>'
-        />
+        <meta name='keywords' content='Agra Housing' />
         <meta
             name='description'
-            content={desc ?? 'Next.js Tailwind Template.'}
+            content={desc ?? 'Agra Housing - Real Estate Company.'}
         />
 
         <meta name='theme-color' content='#4f46e5' />
 
         <meta
             property='og:description'
-            content={desc ?? 'Next.js Tailwind Template.'}
+            content={desc ?? 'Agra Housing - Real Estate Company.'}
         />
         <meta property='og:type' content='Website' />
         <meta
             property='og:title'
-            content={
-                title ? `${title} | Next.js + Tailwind` : 'Next.js + Tailwind'
-            }
+            content={title ? `${title} | Agra Housing` : 'Agra Housing'}
         />
         <meta property='og:url' content={`https://${rootUrl}${currentPath}`} />
         <meta
@@ -55,18 +50,14 @@ export const SEO: React.FC<SEOProps> = ({
 
         <meta
             name='twitter:description'
-            content={desc ?? 'Next.js Tailwind Template.'}
+            content={desc ?? 'Agra Housing - Real Estate Company.'}
         />
         <meta
             name='twitter:title'
-            content={
-                title ? `${title} | Next.js + Tailwind` : `Next.js + Tailwind`
-            }
+            content={title ? `${title} | Agra Housing` : `Agra Housing`}
         />
         <meta name='twitter:card' content='summary' />
 
-        <title>
-            {title ? `${title} | Next.js + Tailwind` : 'Next.js + Tailwind'}
-        </title>
+        <title>{title ? `${title} | Agra Housing` : 'Agra Housing'}</title>
     </>
 );
