@@ -1,5 +1,5 @@
 {
-    "name": "next-tailwind",
+    "name": "agrahousing.com",
     "version": "1.0.0",
     "private": true,
     "license": "MIT",
@@ -56,7 +56,7 @@
         "next-sitemap": "^3.1.32",
         "postcss": "^8.4.19",
         "prettier": "^2.8.0",
-        "prettier-plugin-tailwindcss": "^0.1.13",
+        "prettier-plugin-tailwindcss": "^0.2.0",
         "stylelint": "^14.15.0",
         "stylelint-config-prettier": "^9.0.4",
         "stylelint-config-recommended": "^9.0.0",
