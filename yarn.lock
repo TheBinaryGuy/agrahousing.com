@@ -395,12 +395,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:13.0.5":
-  version: 13.0.5
-  resolution: "@next/eslint-plugin-next@npm:13.0.5"
+"@next/eslint-plugin-next@npm:13.1.6":
+  version: 13.1.6
+  resolution: "@next/eslint-plugin-next@npm:13.1.6"
   dependencies:
     glob: 7.1.7
-  checksum: 94d60dd108325db191fc3a2cf53a07984f18c98f92e62c7383e75eade72b0696d1abe27d12d20cc4b1bab365243f279c2cf0faa5009043c5890bb57b0cb5275f
+  checksum: 15d3b5913a56d40c7ad33c77f5285a2388a3a4b4da2eb80a3899ac4b871c7bfca74fd45f98fcac3d6a91c8dce738da2661cf71e7e3116a14d5da0d5b68939e8d
   languageName: node
   linkType: hard
 
@@ -956,7 +956,7 @@ __metadata:
     eslint-config-airbnb: ^19.0.4
     eslint-config-airbnb-base: ^15.0.0
     eslint-config-airbnb-typescript: ^17.0.0
-    eslint-config-next: ^13.0.5
+    eslint-config-next: ^13.1.6
     eslint-config-prettier: ^8.5.0
     eslint-import-resolver-typescript: ^3.5.2
     eslint-plugin-import: ^2.26.0
@@ -2216,11 +2216,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:^13.0.5":
-  version: 13.0.5
-  resolution: "eslint-config-next@npm:13.0.5"
+"eslint-config-next@npm:^13.1.6":
+  version: 13.1.6
+  resolution: "eslint-config-next@npm:13.1.6"
   dependencies:
-    "@next/eslint-plugin-next": 13.0.5
+    "@next/eslint-plugin-next": 13.1.6
     "@rushstack/eslint-patch": ^1.1.3
     "@typescript-eslint/parser": ^5.42.0
     eslint-import-resolver-node: ^0.3.6
@@ -2235,7 +2235,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 645939ed8fc77732346136771a7f9797cb595cbde7c824013283025cc9778a621a1fde57642f2c33b42f3685b9755a65b67c2704e0561312dd2d53c4e96c2c17
+  checksum: 864b29060f87086802eeb6ea5922dd10764120aba814a1e67103ae9ebed667bc927a4c389217ce51c7b92981a8754f5607deaa2d3676e4716493ce8cc0878522
   languageName: node
   linkType: hard
 
