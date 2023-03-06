@@ -388,10 +388,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/env@npm:13.0.5, @next/env@npm:^13.0.5":
+"@next/env@npm:13.0.5":
   version: 13.0.5
   resolution: "@next/env@npm:13.0.5"
   checksum: cd005b171d602df1b01415df00e1fee79bfd7c6840f1836bedc7b0f9cb466b73e2e52a6cdcff77535538ef55eec200f5e7accb7670fa3273c625f0e0c3a79afb
+  languageName: node
+  linkType: hard
+
+"@next/env@npm:^13.2.3":
+  version: 13.2.3
+  resolution: "@next/env@npm:13.2.3"
+  checksum: e3d59b888c0e57ead895ec0c96ce92b6929684a1af8b3435e0142d21e6af21b1193f421f9d6b9b36ce7711a0379fb85033e25670fef3ba9c923cc77752be6c10
   languageName: node
   linkType: hard
 
@@ -936,7 +943,7 @@ __metadata:
   dependencies:
     "@babel/core": ^7.20.2
     "@headlessui/tailwindcss": ^0.1.1
-    "@next/env": ^13.0.5
+    "@next/env": ^13.2.3
     "@next/font": ^13.0.5
     "@tailwindcss/container-queries": ^0.1.0
     "@tailwindcss/forms": ^0.5.3
